@@ -3,7 +3,7 @@
 ### Por: Lucas Manuel Moyano - Juan Manuel de Aragón
 ### Universidad Blas Pascal
 ---
-![Beautiful Soup](https://i.postimg.cc/653tWBy9/68747470733a2f2f64333377756272666b69306c36382e636c6f756466726f6e742e6e65742f646131653033313836323264.png)](https://postimg.cc/c6VVTyRj)
+![Beautiful Soup](https://i.postimg.cc/653tWBy9/68747470733a2f2f64333377756272666b69306c36382e636c6f756466726f6e742e6e65742f646131653033313836323264.png)
 
 ## Información clave para poder comprender Beautiful Soup
 
