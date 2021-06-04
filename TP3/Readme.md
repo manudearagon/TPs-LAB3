@@ -1,4 +1,4 @@
-#  <center>  Trabajando con Beautiful Soup 
+#  <p align=center>  Trabajando con Beautiful Soup 
 
 ### Guía Básica 
 ![enter image description here](https://tedboy.github.io/bs4_doc/_images/6.1.jpg)
@@ -89,7 +89,4 @@
 
     for link in soup.find_all('a'): //Buscar dentro del parámetro <a>
         print(link.get('href'))
-    # http://example.com/elsie
-    # http://example.com/lacie
-    # http://example.com/tillie
-![enter image description here](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDe_ChmuOQPKCeam6XPP52quOlvv0HIfNk7Q&usqp=CAU)
+## <p align=center>    ![enter image description here](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDe_ChmuOQPKCeam6XPP52quOlvv0HIfNk7Q&usqp=CAU)
