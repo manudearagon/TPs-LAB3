@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>DeveloBird</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/DB-ICON.ico" />
+        <!-- Bootstrap Icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic" rel="stylesheet" type="text/css" />
+        <!-- SimpleLightbox plugin CSS-->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+        <link rel="stylesheet"  href="css/design.css"/>
+    </head>
+
+<!-- ANIMACION DEL ICONO DEL HEADER -->
+    <style>
+        :root{
+            --pajaro_pc-color:  #0a0a0a;
+            --regla-color: #008f39;
+            --pajaro-color:  #C3BA85;
+        }
+        :svg{
+                cursor: pointer;
+            }
+        #PC,#Pajaro {
+            fill: var(--pajaro_pc-color);
+        }
+        #REGLA {
+            opacity: 0;
+            fill: var(--regla-color);
+        }
+        #PC,#REGLA, #Pajaro{
+            transition: all 1s ease;
+        }
+        svg:hover #PC{
+            transform: translateX(100%) ;
+        }
+        svg:hover #REGLA {
+            opacity: 100;
+        }
+        svg:hover #Pajaro {
+            fill: var(--pajaro-color);
+        }
+        #VII,#VDD,#PANTALLA{
+        opacity: 0;
+    }
+
+    svg:hover #VII{
+        transition: all 1s ease;
+        opacity: 100;
+    }
+    svg:hover #VDD{
+        transition: all 1s ease;
+        opacity: 100;
+    }
+    svg:hover #PANTALLA{
+        transition: all 1s ease;
+        opacity: 100;
+    }
+
+    
+    </style>
+
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
+            <div class="container px-4 px-lg-5">
+                <!-- <img src="assets/PC.svg" width="50" height="60"> -->
+        <svg width="50" height="60" viewBox="0 0 126 91" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g id="ICONO">
+                <path id="PC" d="M122.85 73.9375H75.1157C74.97 77.4584 72.2197 79.625 68.67 79.625H56.7C53.0204 79.625 50.1992 76.52 50.2484 73.9375H3.15C1.4175 73.9375 0 75.2172 0    76.7812V79.625C0           85.8813 5.67 91 12.6 91H113.4C120.33 91 126 85.8813 126 79.625V76.7812C126 75.2172 124.583 73.9375 122.85 73.9375ZM113.4 8.53125C113.4 3.83906 109.148  0 103.95 0H22.05C16.8525 0 12.6 3.83906          12.6 8.53125V68.25H113.4V8.53125ZM100.8 56.875H25.2V11.375H100.8V56.875Z" fill="black"/>
+                
+                <path id="Pajaro" d="M92.9802 32.7984C92.65 27.0017 86.9875 22.6558 80.6698 22.6558H79.6937C74.1917 22.6558 68.8344 21.1006 64.3042 18.2305C59.9302 15.4589 54.3 14.2473    48.3448            15.4838C46.4687 15.8723 32.9917 19.4248 33 33.3745C33.0042 40.1647 37.0292 46.0839 42.999 49.2622V56.3433C42.999 57.1893 43.7448 57.8745 44.6656    57.8745H46.3323C47.2531 57.8745 47.999 57.1893             47.999 56.3433V51.1504C49.599 51.5294 51.2698 51.7495 52.999 51.7495C53.5656 51.7495 54.1115 51.6796 54.6656    51.6366V56.3433C54.6656 57.1893 55.4115 57.8745 56.3323 57.8745H57.999C58.9198             57.8745 59.6656 57.1893 59.6656 56.3433V50.6556C61.1489 50.1714 62.5698 49.5656 63.8677     48.7885C68.6323 45.9355 74.0271 44.0933 79.7146 44.0933C82.3687 44.0933 81.3823 44.0636 82.1156             44.0186L89.8666 57.0763C90.1646 57.5769 90.7312 57.8745 91.3302     57.8745C91.4666 57.8745 91.6052 57.8592 91.7416 57.8267C92.4802 57.6544 92.9969 57.0429 92.9969 56.3433C92.9969 56.3433 93.0114             33.3516 92.9802 32.7984ZM81.3302    35.6714C79.95 35.6714 78.8302 34.6426 78.8302 33.3745C78.8302 32.1055 79.95 31.0776 81.3302 31.0776C82.7104 31.0776 83.8302 32.1055 83.8302 33.3745C83.8302            34.6426     82.7104 35.6714 81.3302 35.6714ZM89.6635 50.3379L85.5114 43.3439C87.0864 42.786 88.5041 41.9466 89.6635 40.8575V50.3379Z" fill="black"/>
+    
+            <g id="Regla">
+                <path id="REGLA" d="M105.722 60.5H97.8056V62.2188C97.8056 62.3051 97.2151 62.375 96.4861 62.375H93.8472C93.1182 62.375 92.5278 62.3051 92.5278  62.2188V60.5H81.9722V62.2188C81.9722 62.3051             81.3818 62.375 80.6528 62.375H78.0139C77.2849 62.375 76.6944 62.3051 76.6944 62.2188V60.5H66.1389V62.2188C66.1389 62.3051   65.5484 62.375 64.8194 62.375H62.1806C61.4516 62.375 60.8611 62.3051          60.8611 62.2188V60.5H50.3056V62.2188C50.3056 62.3051 49.7151 62.375 48.9861 62.375H46.3472C45.6182  62.375 45.0278 62.3051 45.0278 62.2188V60.5H34.4722V62.2188C34.4722 62.3051 33.8818 62.375           33.1528 62.375H30.5139C29.7849 62.375 29.1944 62.3051 29.1944   62.2188V60.5H21.2778C18.3635 60.5 16 60.7799 16 61.125V64.875C16 65.2201 18.3635 65.5 21.2778 65.5H105.722C108.637 65.5 111           65.2201 111 64.875V61.125C111 60.7799   108.637 60.5 105.722 60.5Z" fill="black"/>
+            </g>
+            </g>
+        </svg>
+                <a class="navbar-brand" href="#page-top">DeveloBird</a>
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto my-2 my-lg-0">
+                        <li class="nav-item"><a class="nav-link" href="#about">Nosotros</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#services">Lenguajes</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#portfolio">Proyectos Realizados</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contacto</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Masthead-->
+        <header class="masthead">
+            <div class="container px-4 px-lg-5 h-100">
+                <div class="row gx-4 gx-lg-5 h-100 align-items-center justify-content-center text-center">
+                    <div class="col-lg-8 align-self-end">
+                        <h1 class="text-white font-weight-bold">"Saber todo y ser el mejor en todo"</h1>
+                        <hr class="divider" />
+                    </div>
+                    <div class="col-lg-8 align-self-baseline">
+                        <p class="text-white-75 mb-5">Buscamos la excelencia en todas las areas de desarrollo, intentando brindar a nuestros clientes la mejor atencion posible</p>
+                        <a class="btn btn-primary btn-xl" href="#about">Enterate mas de nosotros!</a>
+                        <!-- <button class="custom-btn btn-11" href= "#about"><span> MAS </span></button> -->
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- About-->
+        <section class="page-section bg-primary" id="about">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-lg-8 text-center">
+                        <h2 class="text-white mt-0">Quienes somos?</h2>
+                        <hr class="divider divider-light" />
+                        <p class="text-white-75 mb-4">Somos un grupo de desarrolladores que buscan ampliar su conocimiento en todas las ramas de la programacion y el desarrollo web, sirviendo esto como base para mejorar la calidad de nuestros trabajos y satisfacer al cliente en cada pedido que nos hagan</p>
+                        <a class="btn btn-light btn-xl" href="#services">Que hacemos!</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Services-->
+        <section class="page-section" id="services">
+            <div class="container px-4 px-lg-5">
+                <h2 class="text-center mt-0">Los que hacemos mejor</h2>
+                <hr class="divider" />
+                <div class="row gx-4 gx-lg-5">
+                    <div class="col-lg-3 col-md-6 text-center">
+                        <div class="mt-5">
+                            <div class="mb-2"><i class="bi bi-file-code fs-1 text-primary"></i></div>
+                            <h3 class="h4 mb-2">Programas</h3>
+                            <p class="text-muted mb-0">C,C++,C#, son unos de los lenguajes los cuales sabemos manejar a la perfeccion</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 text-center">
+                        <div class="mt-5">
+                            <div class="mb-2"><i class="bi-laptop fs-1 text-primary"></i></div>
+                            <h3 class="h4 mb-2">Paginas Web</h3>
+                            <p class="text-muted mb-0">La creacion de paginas web es un trabajo que requiere a los mejores diseñadores y programadores</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 text-center">
+                        <div class="mt-5">
+                            <div class="mb-2"><i class="bi bi-bug fs-1 text-primary"></i></div>
+                            <h3 class="h4 mb-2">Mantenimiento y Reparacion</h3>
+                            <p class="text-muted mb-0">"Bug Fixing" es una tarea que nos tomamos muy enserio y le dedicamos un equipo entero a realizarlo</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 text-center">
+                        <div class="mt-5">
+                            <div class="mb-2"><i class="bi bi-joystick fs-1 text-primary"></i></div>
+                            <h3 class="h4 mb-2">Videojuegos</h3>
+                            <p class="text-muted mb-0">El desarrollo de videojuegos es una de las tareas mas entretenidas, la cual la hacemos con mucho esfuerzo</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Portfolio-->
+        <div id="portfolio">
+            <div class="container-fluid p-0">
+                <div class="row g-0">
+                    <div class="col-lg-4 col-sm-6">
+                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/1a.jpg" title="Capacitaciones">
+                            <img class="img-fluid" src="assets/img/portfolio/thumbnails/1a.jpg" alt="..." />
+                            <div class="portfolio-box-caption">
+                                <div class="project-category text-white-50">Preparando a nuestros desarrolladores</div>
+                                <div class="project-name">Capacitaciones</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/2a.png" title="Debugging">
+                            <img class="img-fluid" src="assets/img/portfolio/thumbnails/2a.png" alt="..." />
+                            <div class="portfolio-box-caption">
+                                <div class="project-category text-white-50"></div>
+                                <div class="project-name">Debugging</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/3a.jpg" title="Instalaciones">
+                            <img class="img-fluid" src="assets/img/portfolio/thumbnails/3a.jpg" alt="..." />
+                            <div class="portfolio-box-caption">
+                                <div class="project-category text-white-50">Nuestro lugar de desarrollo</div>
+                                <div class="project-name">Instalaciones</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/4a.jpg" title="Gaming">
+                            <img class="img-fluid" src="assets/img/portfolio/thumbnails/4a.jpg" alt="..." />
+                            <div class="portfolio-box-caption">
+                                <div class="project-category text-white-50">Nuestro juego mas famoso</div>
+                                <div class="project-name">Gaming</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/5a.png" title="Paginas Web">
+                            <img class="img-fluid" src="assets/img/portfolio/thumbnails/5a.png" alt="..." />
+                            <div class="portfolio-box-caption">
+                                <div class="project-category text-white-50">Desarrollamos paginas para todos los dispositivos</div>
+                                <div class="project-name">Paginas Web</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/6a.jpg" title="Nuestra Meta">
+                            <img class="img-fluid" src="assets/img/portfolio/thumbnails/6a.jpg" alt="..." />
+                            <div class="portfolio-box-caption p-3">
+                                <div class="project-category text-white-50">La busqueda de ser la mejor version de nosotros mismos</div>
+                                <div class="project-name">Nuestra Meta</div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Call to action-->
+        <section class="page-section bg-dark text-white">
+            <div class="container px-4 px-lg-5 text-center">
+                <h2 class="mb-4">Proceso de creacion de pagina web</h2>
+                <a class="btn btn-light btn-xl" href="https://drive.google.com/file/d/1LFJNFMcpPbQhmAZbdy3jNfWQA6ilkMCZ/view?usp=sharing">Descargar PDF</a>
+            </div>
+        </section>
+        <!-- Contact-->
+        <section class="page-section" id="contact">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-lg-8 col-xl-6 text-center">
+                        <h2 class="mt-0">Queres saber mas de nosotros?</h2>
+                        <hr class="divider" />
+                        <p class="text-muted mb-5">Si te interesara trabajar en nuestro equipo o queres contratarnos para un trabajo en particular, no dudes en contactarte!</p>
+                    </div>
+                </div>
+                <div class="row gx-4 gx-lg-5 justify-content-center mb-5">
+                    <div class="col-lg-6">
+                        <form id="form" action="" class="form">
+                            <label for="name">Nombre Completo <span>*</span></label>
+                            <input name="name" required type="text" id="name"placeholder="Juan">
+                            <label for="email">Correo electrónico <span>*</span></label>
+                            <input name="email" type="text" id="email" required placeholder="juan@gmail.com">
+                            <label for="message">Mensaje</label>
+                            <textarea id="message" name="message" id="" cols="30" rows="10"></textarea>
+                            <button type="submit" button class="custom-btn btn-5"> Enviar </button>
+                         </form>
+                         <a href="mailto:manudearagon@gmail.com" id="aeb">Mail</a>
+                         <script >
+                             const $form = document.querySelector('#form')
+                             const $buttonMailto = document.querySelector('#aeb')
+
+                             $form.addEventListener('submit',handleSubmit)
+
+
+                             function handleSubmit(event){
+                                event.preventDefault()
+                                const form = new FormData(this)
+                                console.log(form.get('name'))
+                                $buttonMailto.setAttribute('href',`mailto:manudearagon@gmail.com?subject=${form.get('name')}${form.get('email')}&body=${form.get('message')}`)
+                                $buttonMailto.click()
+                             }
+                         </script>
+                    </div>
+                </div>
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-lg-4 text-center mb-5 mb-lg-0">
+                        <!-- <i class="bi-phone fs-2 mb-3 text-muted"></i> -->
+                        <svg width="70" height="80" viewBox="0 0 149 133" fill="none" xmlns="http://www.w3.org/2000/svg">
+                             <g id="CELULAR">
+                                 <path id="MOVIL" d="M106.35 0H42.65C35.1141 0 29 5.58496 29 12.4688V120.531C29 127.415 35.1141 133 42.65 133H106.35C113.886 133 120 127.415 120 120.531V12.4688C120 5.58496 113.886 0                          106.35 0ZM74.5 124.688C69.4666 124.688 65.4 120.973 65.4 116.375C65.4 111.777 69.4666 108.062 74.5 108.062C79.5334 108.062 83.6 111.777 83.6 116.375C83.6 120.973 79.5334 124.688 74.5                      124.688Z" fill="black"/>
+                            
+                             <rect id="PANTALLA" x="41" y="17" width="67" height="83" fill="white"/>
+                            
+                             <g id="VI" clip-path="url(#clip0)">
+                                 <path id="VII" d="M127.198 12.7637C127.332 17.0366 127.785 21.1306 128.48 24.2708C129.101 27.0731 129.112 31.0678 128.478 33.85C126.773 41.3819 126.771 55.1545 128.557                            62.8063C129.185 65.4893 129.066 69.3647 128.455 72.0873C126.767 79.6391 126.77 93.3322 128.545 100.944C129.173 103.627 129.043 107.562 128.432 110.305C127.748 113.385 127.304 117.459                      127.174 121.772C127.129 123.342 126.737 124.475 126.294 124.474L124.489 124.474C123.979 124.474 123.548 122.964 123.593 121.155C123.734 115.431 124.234 110.006 125.047 105.375C123.11                      94.1464 123.141 78.148 125.054 67.2177C123.116 55.9886 123.147 39.9902 125.06 29.0599C124.265 24.4291 123.756 18.9438 123.617 13.3394C123.572 11.5309 124.004 10.0205 124.514                       10.0206L126.285 10.0209C126.733 10.0011 127.148 11.1539 127.198 12.7637V12.7637ZM135.269 12.765C135.403 17.0379 135.856 21.132 136.55 24.2722C137.172 27.0745 137.183 31.0691 136.549                       33.8514C134.844 41.3833 134.841 55.1559 136.628 62.8076C137.255 65.4907 137.137 69.366 136.526 72.0887C134.837 79.6405 134.841 93.3335 136.616 100.946C137.243 103.629 137.114 107.564                  136.503 110.306C135.818 113.386 135.375 117.461 135.245 121.773C135.2 123.343 134.808 124.476 134.365 124.476L132.56 124.476C132.05 124.475 131.619 122.965 131.664 121.156C131.805                  115.433 132.305 110.007 133.118 105.377C131.181 94.1478 131.211 78.1493 133.124 67.219C131.187 55.99 131.218 39.9915 133.131 29.0612C132.336 24.4305 131.827 18.9452 131.687                  13.3407C131.643 11.5322 132.075 10.0219 132.585 10.0219L134.356 10.0222C134.804 10.0024 135.219 11.1552 135.269 12.765V12.765ZM143.34 12.7663C143.479 17.0392 143.927 21.1333 144.621                     24.2735C145.243 27.0758 145.253 31.0705 144.62 33.8527C142.914 41.3846 142.912 55.1572 144.699 62.8089C145.326 65.492 145.208 69.3674 144.596 72.09C142.908 79.6418 142.911 93.3349                 144.687 100.947C145.314 103.63 145.185 107.565 144.573 110.307C143.889 113.388 143.446 117.462 143.316 121.774C143.271 123.344 142.878 124.477 142.436 124.477L140.631 124.477C140.121                 124.477 139.689 122.966 139.735 121.158C139.876 115.434 140.375 110.009 141.189 105.378C139.251 94.1491 139.282 78.1507 141.195 67.2203C139.258 55.9913 139.288 39.9928 141.201             29.0625C140.406 24.4318 139.897 18.9465 139.758 13.3421C139.714 11.5335 140.145 10.0232 140.655 10.0233L142.426 10.0236C142.875 10.0038 143.289 11.1565 143.34 12.7663V12.7663Z" fill="                        black"/>
+                             </g>
+                             <g id="VD" clip-path="url(#clip1)">
+                                 <path id="VDD" d="M21.5168 121.715C21.383 117.442 20.9297 113.348 20.2352 110.207C19.6136 107.405 19.603 103.41 20.2368 100.628C21.9419 93.0962 21.9441 79.3237 20.1575                            71.6719C19.5302 68.9888 19.6486 65.1135 20.2599 62.3908C21.9482 54.8391 21.9449 41.146 20.1694 33.534C19.5422 30.8509 19.6717 26.9159 20.2831 24.1734C20.9674 21.0931 21.4108 17.019                        21.5404 12.7064C21.5855 11.1364 21.978 10.0036 22.4208 10.0037L24.2255 10.004C24.7355 10.0041 25.1668 11.5146 25.1217 13.3231C24.9806 19.0467 24.4809 24.4722 23.6675 29.1027C25.6048                       40.3317 25.5742 56.3302 23.6612 67.2605C25.5985 78.4896 25.5679 94.488 23.6549 105.418C24.45 110.049 24.9591 115.534 25.0983 121.139C25.1428 122.947 24.711 124.458 24.201                  124.458L22.4299 124.457C21.9815 124.477 21.567 123.324 21.5168 121.715V121.715ZM13.4461 121.713C13.3123 117.44 12.859 113.346 12.1645 110.206C11.5428 107.404 11.5323 103.409 12.1661                       100.627C13.8711 93.0949 13.8734 79.3223 12.0868 71.6706C11.4595 68.9875 11.5779 65.1121 12.1892 62.3895C13.8775 54.8377 13.8741 41.1446 12.0987 33.5327C11.4714 30.8496 11.601 26.9146              12.2124 24.1721C12.8966 21.0917 13.3401 17.0177 13.4697 12.7051C13.5148 11.135 13.9073 10.0023 14.3501 10.0024L16.1548 10.0027C16.6648 10.0028 17.0961 11.5132 17.051 13.3218C16.9099                19.0454 16.4102 24.4709 15.5968 29.1014C17.5341 40.3304 17.5034 56.3289 15.5904 67.2592C17.5278 78.4882 17.4971 94.4867 15.5841 105.417C16.3792 110.048 16.8883 115.533 17.0275               121.137C17.0721 122.946 16.6403 124.456 16.1302 124.456L14.3592 124.456C13.9108 124.476 13.4962 123.323 13.4461 121.713V121.713ZM5.37533 121.712C5.23592 117.439 4.78823 113.345                    4.09377 110.205C3.47211 107.402 3.46156 103.408 4.09535 100.625C5.80042 93.0936 5.8027 79.321 4.01607 71.6693C3.38879 68.9862 3.50713 65.1108 4.11849 62.3882C5.80675 54.8364 5.80341                      41.1433 4.02799 33.5313C3.40071 30.8482 3.53027 26.9132 4.14163 24.1707C4.82591 21.0904 5.26935 17.0163 5.39897 12.7037C5.44407 11.1337 5.83658 10.001 6.27935 10.001L8.08406                10.0013C8.59408 10.0014 9.02539 11.5119 8.98025 13.3204C8.83919 19.0441 8.33948 24.4695 7.52603 29.1C9.46339 40.3291 9.43272 56.3275 7.51972 67.2578C9.45708 78.4869 9.42641 94.4853                     7.51341 105.416C8.3085 110.046 8.81762 115.532 8.95681 121.136C9.00135 122.945 8.56954 124.455 8.05952 124.455L6.28844 124.455C5.84006 124.474 5.42551 123.322 5.37533 121.712V121.712Z                    " fill="black"/>
+                             </g>
+                             </g>
+                                 <defs>
+                                     <clipPath id="clip0">
+                                     <rect width="114.473" height="28.6959" fill="white" transform="matrix(0.000165444 -1 -1 -0.000165444 148.696 124.478)"/>
+                                     </clipPath>
+                                     <clipPath id="clip1">
+                                     <rect width="114.473" height="28.6959" fill="white" transform="matrix(-0.000165444 1 1 0.000165444 0.0189362 10)"/>
+                                     </clipPath>
+                                </defs>
+                        </svg>
+                        <div>+54 9 351 231 7227</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Footer-->
+        <footer class="bg-light py-5">
+            <div class="container px-4 px-lg-5"><div class="small text-center text-muted">Copyright &copy; 2021 - DeveloBird</div></div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- SimpleLightbox plugin JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <!-- * *                               SB Forms JS                               * *-->
+        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+    </body>
+</html>
