@@ -34,11 +34,17 @@
  - La capeta llamada "nombredelproyecto" se la renombra por "config"
  - En el archvio asgi.py y wsgi.py:
 	 - En la linea 14, donde dice: "nombredelproyecto" cambairlo por "config"
-- En el archvio settings.py:
+ - En el archvio settings.py:
 	- Cambiar todos los "nombredelproyecto" por "config"
-- En el archivo manage.py:
+ - En el archivo manage.py:
 	- Cambiar el "nombredelproyecto" por "config"
  - [ ] python manage.py startapp "nombredelaapp"
+
+--- 
+## Informacion adicional de Django
+
+ - https://www.youtube.com/watch?v=7XO1AzwkPPE
+ - https://www.djangoproject.com/
 
 ---
 ## Descripción del proyecto
