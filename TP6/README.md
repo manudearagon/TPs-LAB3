@@ -1,7 +1,7 @@
 ﻿#  <center>Trabajo Practico 6
 #  Django
 
-### Por: Lucas Manuel Moyano - Juan Manuel de Aragón
+### Por: Lucas Manuel Moyano - Juan Manuel de Aragón - Muñoz Faya Facundo
 ### Universidad Blas Pascal
 ![enter image description here](https://swapps.com/wp-content/uploads/2019/04/django-faster.jpg)
 ---
